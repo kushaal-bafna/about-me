@@ -3,39 +3,90 @@
 <head>
   <meta charset="utf-8">
   <title>Kushaal Bafna P</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="aboutme.css">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="image/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
+  <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="">KB</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Projects</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#bottom-container">Contact</a>
+        </li>
+    </ul>
+ </div>
+</nav>
+
+
   <div class="top-container">
-    <div class="top-cloud">
-      <img src="cloud.png" alt="cloud-image">
-    </div>
-    <div style="padding-top: 79px;padding-bottom: 30px;">
-      <h1>I'm Kushaal.</h1>
-      <h2>a <span>web dev</span>eloper.</h2>
-    </div>
-    <div class="bottom-cloud">
-      <img src="cloud.png" alt="cloud-image">
-    </div>
-    <div class="">
-      <img src="mountain.png" alt="mountain-image">
-    </div>
+      <img src="image/kushaal.jpeg" class="mobile-image">
   </div>
 
-  <div class="middle-container">
-    <div class="profile">
-      <img style="border-radius:100%;margin:30px auto;width:15%" src="https://media-exp1.licdn.com/dms/image/C5603AQFhJmErueekZQ/profile-displayphoto-shrink_800_800/0/1612464086559?e=1649289600&v=beta&t=vQTFDnE4ThLC3wozZpI6Re1gxNteWty0rFHGxHZRTvA" alt="kushaal-image">
-      <h2>Hello.</h2>
-      <p style="width:25%;margin:auto;line-height: 2;">I am a web developer and I <span style="color:#66BFBF;">❤</span> to keep myself healthy and fit.</p>
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item  active">
+          <h1>Cab Pooling</h1>
+          <h2>IT IS A CAB POOLING FACILITY DESIGNED ESPECIALLY FOR DAY-SCHOLARS TO MINIMISE THE USE OF CROWDED PUBLIC TRANSPORT POST-PANDEMIC</h2>
+          <img class="testimonial-image" src="image/cab.png" alt="cab-image">
+          <em>Project - 1</em>
+        </div>
+
+        <div class="carousel-item">
+          <h1>Railway Ticket Booking System</h1>
+          <h2 class="testimonial-text">IT IS A RAILWAY TICKET BOOKING WEB APPLICATION GIVEN AS A STUDY EXPERIMENT</h2>
+          <img class="testimonial-image" src="image/train.png" alt="train-image">
+          <em>Project - 2</em>
+        </div>
+
+        <div class="carousel-item">
+          <h1>Education Management System</h1>
+          <h2 class="testimonial-text">AS IN OUR INSTITUTION TUTORS USE GOOGLE CLASSROOM, WHATSAPP AND GMAIL TO COMMUNICATE WITH THE STUDENTS, TO OVERCOME THIS WE HAVE INTEGRATED FUNCTIONS USED IN ALL THE THREE APPLICATIONS INTO A SINGLE APPLICATION</h2>
+          <img class="testimonial-image" src="image/teacher.png" alt="teacher-image">
+          <em>Project - 3</em>
+        </div>
+
+        <div class="carousel-item">
+          <h1>Internal Job Portal</h1>
+          <h2 class="testimonial-text">IT IS AN ONLINE APPLICATION TO BE BUILT AS A PRODUCT THAT CAN PROVIDE A ONE-STOP POINT FOR ALL EMPLOYEES TO APPLY/VIEW JOB POSTINGS, COMMENT ON POSTINGS, POST JOB REQUIREMENTS ETC</h2>
+          <img class="testimonial-image" src="image/work.png" alt="work-image">
+          <em>Project - 4</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
-    <hr>
+  </section>
+
+
+
+  <div class="middle-container">
     <div class="skills">
-      <h2>My Skills.</h2>
+      <h1 style="color: #00ADB5">My Passion.</h1>
       <div class="skill-row">
         <img class="coder-image" src="https://media1.giphy.com/media/YuKbGGIYMXemhnub3q/giphy.gif?cid=ecf05e47jpq85k5jlh8tp7414umpixco71ccuf04jxcrmb9w&rid=giphy.gif&ct=s" alt="coder-image">
         <h3>Web Development</h3>
@@ -49,18 +100,18 @@
     </div>
     <hr>
     <div class="contact-me">
-      <h2 style="margin-bottom: 30px;">Get In Touch</h2>
-      <h3 style="margin-bottom: 30px;">Want to stay both physically and mentally fit?</h3>
-      <p style="margin-bottom: 60px;line-height:2;">If your really interested to know how to stay both physically and mentally fit?<br>Come on let us discuss about it.</p>
+      <h1 style="margin-bottom: 100px;color: #00ADB5">Get In Touch</h1>
+      <h3 style="margin-bottom: 30px;">Want to stay physically and mentally fit?</h3>
+      <p style="margin-bottom: 60px;line-height:2;">If your really interested to know, how to stay physically and mentally fit?<br>Come on let us discuss about it.</p>
       <a class="btn" href="mailto:kushaalstanite@gmail.com">CONTACT ME</a>
     </div>
   </div>
 
 
-  <div class="bottom-container">
+  <div id="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/kushaal-bafna-8125ab175">LinkedIn</a>
     <a class="footer-link" style="margin-left:60px;margin-right:60px;" href="https://github.com/kushaalbafna">Github</a>
-    <a class="footer-link" href="https://kushaal-bafna.github.io/about-me/">Website</a>
+    <a class="footer-link" href="C:\Users\pjkr\Desktop\kushaal\udemy\web\CSS - About Me\index.html">Website</a>
     <p style="margin-top: 30px;margin-bottom: 0;padding-bottom: 30px;color: #EAF6F6;font-size:75%">© Kushaal Bafna.</p>
   </div>
 
